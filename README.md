@@ -1,24 +1,24 @@
-# hello-world
+<!--
+ * @Descripttion: 
+ * @version: v1.0
+ * @Author: linda
+ * @Date: 2022-03-02 16:48:05
+ * @LastEditors: linda
+ * @LastEditTime: 2022-03-05 17:23:32
+-->
+# component-lib-vue组件库
 
-## Project setup
-```
-npm install
-```
+### 快速开始
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+#### 1.安装组件库
 
-### Compiles and minifies for production
+```bash
+npm i component-lib-vue
 ```
-npm run build
+#### 2.引用组件库
+```javascript
+// 按需引入
+import 'component-lib-vue/dist/css/card.css
+import { Card } from 'component-lib-vue'
+Vue.use(Card)
 ```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
